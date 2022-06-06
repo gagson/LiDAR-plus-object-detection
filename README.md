@@ -4,9 +4,10 @@ Availibility: This application only works on iPhone with LiDAR scanner hardware.
 
 Environment tested: iPhone 12 Pro/ iOS 15.4.1/ Xcode version 13.2.1/ macOS Big Sur 11.6.5
 
-This code primarily was a prototype of the Master's Thesis "Utilising the data from AI object detection and depth sensor to prevent visually impaired people from falling into railroad tracks" (Priminary title) at Graduate School of Information Technology, Kobe Institute of Computing.
+This code primarily was a prototype of the Master's Thesis "Utilising the data from AI object detection and depth sensor to prevent visually impaired people from falling into railroad tracks" (preliminary title) at Graduate School of Information Technology, Kobe Institute of Computing.
 
 (Draft)
+
 The ViewController file limits the frame per second into 3 units for saving memory and CPU resources of the iPhone 12 Pro. It accepts RGB images from the rear camera, then fixes the image resolution into 1920 × 1080 and reorient it into the right orientation so as to get the repeatable and correct results of object detection at all times.
 
 Later, it commits object detection after sending the data to the detectorMain file. The detectorMain file contains a detector model pre-trained by the YOLOv3tiny algorithm which has the role of detecting the desired danger zone objects. It crops the images into 416 × 416 using scale fit function in order to fit the requirements of the YOLO algorithm.  The detector model accepts the cropped images and then predicts the desired objects in the images. 
