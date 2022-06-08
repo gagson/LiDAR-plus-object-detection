@@ -4,7 +4,7 @@ Availibility: This application only works on iPhone with LiDAR scanner hardware.
 
 Environment tested: iPhone 12 Pro/ iOS 15.4.1/ Xcode version 13.2.1/ macOS Big Sur 11.6.5
 
-This code primarily was a prototype of the Master's Thesis "Utilising the data from AI object detection and depth sensor to prevent visually impaired people from falling into railroad tracks" (preliminary title) at Graduate School of Information Technology, Kobe Institute of Computing.
+This code was primarily a prototype of the Master's Thesis "Utilising the data from AI object detection and depth sensor to prevent visually impaired people from falling into railroad tracks" (preliminary title) at Graduate School of Information Technology, Kobe Institute of Computing.
 
 (Drafting)
 
