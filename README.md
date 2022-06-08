@@ -18,7 +18,8 @@ Finally, having both the information from object detection and distance detectio
 
 Ref:
 
-[1]Okuda, R. AR Sample. <https://github.com/ryokuda/ARSample>.
+[1]R, Okuda, AR Sample. <https://github.com/ryokuda/ARSample>.
 
-[2]Okuda, R. 歩行者信号識別装置. 特許第6737968号. 2020-02-07.
+[2]R, Okuda, "The pedestrian signal identification device," Japan Patent 6737968, Feb,07,2020. 
+(奧田亮輔. 歩行者信号識別装置. 特許第6737968号. 2020-02-07.)
 
