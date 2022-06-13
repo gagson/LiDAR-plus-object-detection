@@ -1,6 +1,6 @@
 # iOS-YOLOv3tiny-Object-Detection-with-the-use-of-LiDAR-Depth-Estimation-Demonstration
 
-Availibility: This application only works on iPhone with LiDAR scanner hardware.
+Availability: This application only works on iPhone with LiDAR scanner hardware.
 
 Environment tested: iPhone 12 Pro/ iOS 15.4.1/ Xcode version 13.2.1/ macOS Big Sur 11.6.5
 
