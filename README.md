@@ -23,9 +23,10 @@ Ref:
 [2]R, Okuda, "The pedestrian signal identification device," Japan Patent 6737968, Feb,07,2020. 
 (奧田亮輔. 歩行者信号識別装置. 特許第6737968号. 2020-02-07.)
 
+
 Custom model training and dataset:
 
-The raw dataset contains 4236 images that were mostly collected from train stations in the Kobe and Osaka regions in Japan. Object detector model training using TensorFlow/Keras backend approach referring to [25]. Data augmentation methods of crop (0% Minimum Zoom, 20% Maximum Zoom), saturation (Between -25% and +25%), and brightness (Between -30% and +30%) were applied, and the final dataset consists of 10,674 images with 6,366 labelled platform edges. The following table shows the class label with the number of labelled objects:
+The raw dataset contains 4236 images that were mostly collected from train stations in the Kobe and Osaka regions in Japan. Object detector model training using TensorFlow/Keras backend approach. Data augmentation methods of crop (0% Minimum Zoom, 20% Maximum Zoom), saturation (Between -25% and +25%), and brightness (Between -30% and +30%) were applied, and the final dataset consists of 10,674 images with 6,366 labelled platform edges. The following table shows the class label with the number of labelled objects:
 
 Class label: No. of labelled objects in custom-trained model (DangerZones20220323.mlmodel)
 
