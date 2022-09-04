@@ -4,7 +4,7 @@ Availability: This application only works on iPhone with LiDAR scanner hardware.
 
 Environment tested: iPhone 12 Pro/ iOS 15.4.1/ Xcode version 13.2.1/ macOS Big Sur 11.6.5
 
-This code was primarily a prototypic simulation application of the Master's Thesis "Railway platform edge detection method for visually-impaired using computer vision fused with depth maps from LiDAR" (Class of 2022) at Graduate School of Information Technology, Kobe Institute of Computing.
+This code was primarily a prototypic demonstration application of the Master's Thesis "Railway platform edge detection method for visually-impaired using computer vision fused with depth maps from LiDAR" (Class of 2022) at Graduate School of Information Technology, Kobe Institute of Computing.
 
 (Drafting)
 
@@ -14,9 +14,9 @@ Later, it commits object detection after sending the data to the detectorMain fi
 
 The coordinates of the bounding boxes of the detected objects are used for drawing the bounding boxes of that on the iPhone screen (for debugging, not for the visually impaired users), and used for retrieving the LiDAR distance data. To make sure they are reflecting the same thing at the same time, the desired LiDAR depth images are retrieved from the same frame for object detection. 
 
-In this prototype, the selected distance value lies on the closest grid of LiDAR depth image compared to the RGB’s one. By “closest”, it does not mean the coordinates are taken by other more precise calculations, rather, it is the distance value that corresponds to the point with minimum distance value of the object, i.e. bounding box. For the edge objects detected as a diagonal line [2], the application takes 10 points across the line to determine the point with minimum distance value, so as to define the closest area of an edge. Still, for the horizontal edges, the application would simply take the distance value of the midpoint to determine the closest area.
+In this prototype, the selected distance value lies on the closest grid of LiDAR depth image compared to the RGB’s one. By “closest”, it does not mean the coordinates are taken by other more precise calculations, rather, it is the distance value that corresponds to the point with minimum distance value of the object, i.e. bounding box. For edge object detected as a diagonal line [2], the application takes 10 points across the line to determine the point with minimum distance value, so as to define the closest area of an edge. Still, for the horizontal edges, the application would simply take the distance value of the midpoint to determine the closest area (for the ease of demonstration).
 
-Finally, having both the information from object detection and distance detection, the application would give a verbal message output if there is a danger zone (in this case, platform edge) detected within 3m ahead of the user.
+Finally, having both the information from object detection and distance detection, the application would give a verbal message output if there is a danger zone (in this case, platform edge) detected within 3.0 m ahead of the user.
 
 Ref:
 
