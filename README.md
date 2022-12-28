@@ -9,6 +9,7 @@ This application only works on iPhone with LiDAR scanner hardware.
 ## Environment tested: 
 iPhone 12 Pro/ iOS 15.4.1/ Xcode version 13.2.1/ macOS Big Sur 11.6.5
 
+### Disclaimers/notice (under construction):
 This code was primarily a prototypic demonstration application of the Master's Thesis "Railway platform edge detection method for visually-impaired using computer vision fused with depth maps from LiDAR" (Class of 2022) at Graduate School of Information Technology, Kobe Institute of Computing.
 
 The ViewController file limits the frame per second into 3 units for saving memory and CPU resources of the iPhone 12 Pro. It accepts RGB images from the rear camera, then fixes the image resolution into 1920 × 1080 and reorient it into the right orientation so as to get the repeatable and correct results of object detection at all times.
