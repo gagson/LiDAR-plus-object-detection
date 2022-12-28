@@ -1,8 +1,13 @@
 # iOS-YOLOv3tiny-Object-Detection-with-the-use-of-LiDAR-Depth-Estimation-Demonstration
 
-Availability: This application only works on iPhone with LiDAR scanner hardware.
+## What's this demonstration app do:
+Basically applying iOS LiDAR hardware to estimate the distance of object detected by custom-trained object detector (YOLOv3tiny in this case).
 
-Environment tested: iPhone 12 Pro/ iOS 15.4.1/ Xcode version 13.2.1/ macOS Big Sur 11.6.5
+## Availability: 
+This application only works on iPhone with LiDAR scanner hardware.
+
+## Environment tested: 
+iPhone 12 Pro/ iOS 15.4.1/ Xcode version 13.2.1/ macOS Big Sur 11.6.5
 
 This code was primarily a prototypic demonstration application of the Master's Thesis "Railway platform edge detection method for visually-impaired using computer vision fused with depth maps from LiDAR" (Class of 2022) at Graduate School of Information Technology, Kobe Institute of Computing.
 
