@@ -1,7 +1,8 @@
-# iOS-YOLOv3tiny-Object-Detection-with-the-use-of-LiDAR-Depth-Estimation-Demonstration
+# LiDAR plus object detection:
+LiDAR distance estimation and object detection using iOS and YOLOv3tiny
 
-## What's this demonstration app do:
-Basically applying iOS LiDAR hardware to estimate the distance of object detected by custom-trained object detector (YOLOv3tiny in this case).
+## What is it:
+Applying iOS LiDAR hardware to estimate the distance of object detected by custom-trained object detector (YOLOv3tiny in this case).
 
 ## Availability: 
 This application only works on iPhone with LiDAR scanner hardware.
